@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+}
+
+/* MENU */
+header {
+    background: #1f513f;
+    padding: 15px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* HERO */
+.hero {
+    background: #c8f6df;
+    text-align: center;
+    padding: 80px 20px;
+}
+.hero h1 {
+    color: #1f513f;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+/* FOTO DA CAIXA */
+.foto-area {
+    text-align: center;
+    padding: 40px 20px;
+}
+.foto-box {
+    margin: 20px auto;
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 0px 4px 12px #00000030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foto-box img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 15px;
+}
+
+/* TEXTO */
+.conteudo {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px #00000020;
+}
+.conteudo h2 {
+    color: #1f513f;
+}
+.conteudo ul li {
+    margin: 8px 0;
+}
+
+/* FOOTER */
+footer {
+    background: #1f513f;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+}
